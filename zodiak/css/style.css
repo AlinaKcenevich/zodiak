@@ -1,0 +1,175 @@
+.marning-main{
+margin: 10px 5px 5px 5px;  /* margin-top: 15px;  margin-right: 0;  margin-bottom: 5px;  margin-left: 20px; */   
+}
+
+
+body{
+text-align :center;
+background-color: #add5ed;
+font-family: sans-serif;
+padding: 5px 10px 2px 10px;
+margin: 3px 20px 3px 20px;
+}
+
+.fl-cont{               /* flexbox */
+display: flex;
+padding: 5px 10px 2px 10px;
+justify-content:space-between;
+height: 100%; 
+}
+.fl-it1.fl-it2{
+margin: 10px;
+padding: 5px;
+width: 100px;
+height: 50px;
+} 
+.fl-it3{
+margin: 10px;
+padding: 5px;
+border-radius: 5px;
+position:right;
+}
+#text_int3{
+font-size:36px;
+text-align:left;
+} 
+#rel-inst{           /* относительное позиционирование */
+position:relative;
+top:19px;
+right:12px;
+}
+#rel-tw {
+position:relative;
+top:18px;
+left:-12px;
+ }
+#rel-vk{
+position:relative;
+top:15px;
+left:-12px;
+}  
+
+h1{ 
+font-family: serif;
+font-size:46px;
+font-weight: bold;
+margin-top: 20px;
+}
+
+#menu{                /* маркированный список */
+list-style: none; 
+margin: 0;
+padding-left: 0; 
+margin-top:20px; 
+background:#d91828; 
+height: 50px;           
+}
+#menu a{
+text-decoration: none; 
+background:#d91828; 
+color:#fff; 
+margin:15px 0px 15px 0px;
+width:170px;
+font-family: arial; 
+display: block; 
+border-right: 1px solid #F36262; /* бордюр справа*/
+-moz-transition: all 0.3s 0.01s ease; /* плавный переход*/
+-webkit-transition: all 0.3s 0.01s ease;
+}
+#menu a:hover{
+background:#D43737;/* эффект при наведении  ; селектор псевдоклассов*/
+}
+#menu li{
+float:left; /* список горизонтально */
+}
+
+.znaki{
+margin: auto;
+padding: 10px; 
+font-size:24px;	
+}
+tr, td{
+height: 50px;
+margin: 10px;
+text-align:center;
+}
+
+.oven{
+	text-align:justify;
+	width:1030px;
+	margin:auto;
+}
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+
+
+
+
+TD.lfcol {            /* анимация */
+	padding: 10px;
+    width: 350px; /* Ширина левой к */
+    vertical-align: center; 
+	
+	animation-name:lyn;                 
+	animation-duration:10s;
+	animation-timing-function:ease;
+	animation-iteration-count:infinite; 
+	
+}
+
+@keyframes lyn {      /* анимация */
+	0%{
+		transform : rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+		
+}
+
+
+p{            
+	text-align : center ;
+	font-size: 30px;
+	font-style:normal;
+}
+
+
+ 
+ #cvet :first-line{
+    color: rgba(0, 0, 0, 1);;; /* 1.1 */
+	text-indent: 70px;
+   }
+
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; 
+   }
+
+   .itl{
+	   font-style:italic;
+	   text-align:right;
+	   color:red;
+   }
+   
+   
+   .fon{
+	   background-color: white;
+	   color:black;
+	   filter: invert(100%);
+   }
+   
+  
+
+
+
+
+
+
+
+
+
+
+
